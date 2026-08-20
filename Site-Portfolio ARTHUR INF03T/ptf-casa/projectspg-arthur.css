@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1c0f57;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    padding: 40px 60px;
+    z-index: 10;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #170f3a;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+    position: relative;
+    transition: 0.3s;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.banner {
+    font-family: 'Poppins', sans-serif;
+    padding: 60px 60px;
+    color: white;
+}
+
+.projects {
+    padding: 60px;
+    color: white;
+    background-color: #170f3a;
+}
+
+.project-item {
+    padding: 30px;
+    background-color: #2a1975;
+    height: auto;
+    max-width: 60%;
+    border-radius: 1rem;
+    margin-bottom: 50px;
+}
+
+.project-item h2 {
+    padding: 10px;
+}
+
+.project-item img {
+    border-radius: 1rem;
+    height: auto;
+}
+
+.project-item figcaption {
+    padding: 10px;
+}

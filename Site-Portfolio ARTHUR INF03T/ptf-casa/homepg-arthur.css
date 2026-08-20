@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #170f3a;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #170f3a;
+    color: white;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    padding: 40px 60px;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+    position: relative;
+    transition: 0.3s;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.hero {
+    height: 90vh;
+
+    background-image: url('https://i.ibb.co/5x1kVDP8/banner-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.hero-content {
+    position: relative;
+    color: white;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.hero-content h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.hero-buttons {
+    position: relative;
+    gap: 20px;
+    justify-content: center;
+    z-index: 5;
+    padding: 20px;
+    transition: 0,3s;
+}
+
+
+.btn {
+    padding: 12px 20px;
+    background-color: #25156b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #322181;
+}
+
+.btn-secondary {
+    padding: 10px 20px;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: white;
+    color: black;
+}
+
+.projects {
+    padding: 60px 60px;
+    color: white;
+}
+
+.project-blocks {
+    display: flex;
+    gap: 30px;
+}
+
+.project-item img {
+    height: auto;
+    border-radius: 1rem;
+}
+
+
+
+.project-item figcaption {
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.projects-text h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.projects-text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.contact {
+    background-color: #1c0f57;
+    padding: 60px 60px;
+    color: white;
+}
+
+.contact-text h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.contact-text p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.contact-block {
+    background-color: #513ea763;
+    width: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.contact-block a {
+    color: white;
+}
+
+.contact-block a:hover {
+    color:aqua;
+}
+
+.contact-block img {
+    width: 55px;
+}
