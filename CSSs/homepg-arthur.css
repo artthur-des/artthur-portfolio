@@ -144,6 +144,19 @@ nav a:hover::after {
     color: white;
 }
 
+.projects-text h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.projects-text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
 .project-blocks {
     display: flex;
     gap: 30px;
@@ -159,22 +172,20 @@ nav a:hover::after {
     padding: 5px;
 }
 
-.projects-text h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
-    margin-bottom: 20px;
-    font-weight: 800;
+.see-more-btn {
+    background-color: #18297D;
+    border-radius: 5px;
+    padding: 10px 20px;
 }
 
-.projects-text p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-    line-height: 1.5;
+.see-more-btn a {
+    color: white;
+    text-decoration: none;
 }
 
 .contact {
     background-color: #111421;
-    padding: 60px 60px;
+    padding: 60px;
     color: white;
 }
 
@@ -190,29 +201,20 @@ nav a:hover::after {
     margin-bottom: 40px;
 }
 
-.contact-block {
-    background-color: #18297D;
-    width: auto;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    align-items: center;
+.contact-buttons {
+    background-color: #151F4F;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
 }
 
-.contact-block a {
-    color: white;
-}
-
-.contact-block a:hover {
-    color: #3B6E70;
-}
-
-.contact-block img {
-    width: 55px;
+.contanct-block img {
+    max-width: 50px;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #111421;
+    background-color: #151F4F;
     color: white;
 }
