@@ -10,14 +10,7 @@ html {
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #111421;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #111421;
-    color: white;
+    background-color: #151f4f;
 }
 
 header {
@@ -161,8 +154,6 @@ nav a:hover::after {
     border-radius: 1rem;
 }
 
-
-
 .project-item figcaption {
     font-size: 1rem;
     padding: 5px;
@@ -182,7 +173,7 @@ nav a:hover::after {
 }
 
 .contact {
-    background-color: #151F4F;
+    background-color: #111421;
     padding: 60px 60px;
     color: white;
 }
@@ -217,4 +208,11 @@ nav a:hover::after {
 
 .contact-block img {
     width: 55px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111421;
+    color: white;
 }
