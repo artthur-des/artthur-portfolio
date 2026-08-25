@@ -91,3 +91,18 @@ nav a:hover::after {
 .project-item figcaption {
     padding: 10px;
 }
+
+.see-more-btn {
+    background-color:#294bf0;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.see-more-btn:hover {
+    background-color:#3252f3;
+}
+
+.see-more-link {
+    color: white;
+    text-decoration: none;
+}
