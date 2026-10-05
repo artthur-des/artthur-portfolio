@@ -50,3 +50,10 @@ nav a::after {
 nav a:hover::after {
     width: 100%;
 }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #151F4F;
+    color: white;
+}
