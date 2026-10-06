@@ -1,11 +1,9 @@
 .hero {
     height: 90vh;
-
     background-image: url('../Images/imagem-casa-lauterbrunnen.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     position: relative;
     justify-content: center;
     display: flex;
@@ -63,7 +61,6 @@
     transition: 0.3s;
 }
 
-
 .btn {
     padding: 12px 20px;
     background-color: #1b2c80;
@@ -112,28 +109,43 @@
 
 .project-blocks {
     display: flex;
-    gap: 30px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-item {
+    width: 100%;
+    max-width: 320px;
 }
 
 .project-item img {
-    height: auto;
+    width: 100%;
+    aspect-ratio: 3 / 5;
+    object-fit: cover;
     border-radius: 1rem;
 }
 
 .project-item figcaption {
-    font-size: 1rem;
-    padding: 5px;
+    font-size: 12px;
+    margin:3px;
+    color:#abbdff50;
 }
 
 .see-more-btn {
     background-color: #18297D;
-    border-radius: 5px;
-    padding: 10px 20px;
+    border-radius: 10px;
+    padding: 10px 40px;
+    width: fit-content;
+    margin:20px auto 0;
 }
 
 .see-more-btn a {
     color: white;
     text-decoration: none;
+}
+
+.see-more-btn:hover {
+    background-color: #2a41b3;
 }
 
 .contact {
@@ -163,11 +175,4 @@
 
 .contact-block img {
     max-width: 50px;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #151F4F;
-    color: white;
 }
