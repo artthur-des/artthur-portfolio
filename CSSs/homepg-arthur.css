@@ -92,6 +92,7 @@
 .projects {
     padding: 60px 60px;
     color: white;
+    background-color: #0c1230;
 }
 
 .projects-text h2 {
@@ -120,7 +121,7 @@
 
 .project-item img {
     width: 100%;
-    aspect-ratio: 3 / 5;
+    aspect-ratio: 4 / 7;
     object-fit: cover;
     border-radius: 1rem;
 }
