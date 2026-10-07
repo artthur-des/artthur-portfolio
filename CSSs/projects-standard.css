@@ -1,0 +1,17 @@
+.return-page {
+    padding: 40px 60px;
+    margin-bottom: 20px;
+    z-index: 9;
+}
+
+.go-back-btn a {
+    padding: 10px 20px;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.project-area {
+    color: white;
+}
