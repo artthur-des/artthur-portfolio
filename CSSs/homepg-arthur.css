@@ -149,7 +149,7 @@
 }
 
 .contact {
-    background-color: #111421;
+    background-color: #18297D;
     padding: 60px;
     color: white;
 }
@@ -163,16 +163,35 @@
 
 .contact-text p {
     font-size: 1.2rem;
-    margin-bottom: 40px;
+    margin-bottom: 2rem;
 }
 
-.contact-buttons {
-    background-color: #151F4F;
-    gap: 20px;
+.contact-cards {
+    display: flex;
+    gap: 2rem;
     justify-content: center;
+}
+
+.contact-block {
+    width: 100%;
     padding: 20px;
+    border-radius: 1rem;
+    background-color: #0c1230;
 }
 
 .contact-block img {
-    max-width: 50px;
+    width: 100px;
+}
+
+.contact-block figcaption {
+    color: #18297D;
+    margin-bottom: 30px;
+}
+
+.contact-block a {
+    padding: 10px;
+    background-color: #4554a0;
+    border-radius: 0.7rem;
+    text-decoration: none;
+    color: white;
 }
