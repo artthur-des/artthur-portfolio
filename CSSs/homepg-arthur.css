@@ -133,14 +133,14 @@
 }
 
 .see-more-btn {
-    background-color: #18297D;
-    border-radius: 10px;
-    padding: 10px 40px;
     width: fit-content;
-    margin:20px auto 0;
+    margin:40px auto 0;
 }
 
 .see-more-btn a {
+    background-color: #18297D;
+    border-radius: 10px;
+    padding: 10px 40px;
     color: white;
     text-decoration: none;
 }
