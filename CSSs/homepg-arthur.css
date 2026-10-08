@@ -1,71 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #170f3a;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #170f3a;
-    color: white;
-}
-
-header {
-    position: absolute;
-    width: 100%;
-    padding: 40px 60px;
-    z-index: 10;
-}
-
-nav {
-    display: flex;
-    justify-content: flex-end;
-    gap: 25px;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-
-    position: relative;
-    transition: 0.3s;
-}
-
-nav a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-
-    width: 0%;
-    height: 2px;
-    background-color: white;
-    transition: 0.3s;
-}
-
-nav a:hover::after {
-    width: 100%;
-}
-
 .hero {
     height: 90vh;
-
-    background-image: url('https://i.ibb.co/5x1kVDP8/banner-hero.jpg');
+    background-image: url('../Images/imagem-casa-lauterbrunnen.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     position: relative;
     justify-content: center;
     display: flex;
@@ -84,8 +22,11 @@ nav a:hover::after {
 .hero-content {
     position: relative;
     color: white;
-    max-width: 600px;
+    max-width: 900px;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .hero-content h1 {
@@ -110,17 +51,19 @@ nav a:hover::after {
 
 .hero-buttons {
     position: relative;
-    gap: 20px;
+    display: flex;
+    gap: 10px;
     justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
     z-index: 5;
     padding: 20px;
-    transition: 0,3s;
+    transition: 0.3s;
 }
-
 
 .btn {
     padding: 12px 20px;
-    background-color: #25156b;
+    background-color: #1b2c80;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -128,7 +71,7 @@ nav a:hover::after {
 }
 
 .btn:hover {
-    background-color: #322181;
+    background-color: #2a41b3;
 }
 
 .btn-secondary {
@@ -149,23 +92,7 @@ nav a:hover::after {
 .projects {
     padding: 60px 60px;
     color: white;
-}
-
-.project-blocks {
-    display: flex;
-    gap: 30px;
-}
-
-.project-item img {
-    height: auto;
-    border-radius: 1rem;
-}
-
-
-
-.project-item figcaption {
-    font-size: 1rem;
-    padding: 5px;
+    background-color: #0c1230;
 }
 
 .projects-text h2 {
@@ -181,9 +108,50 @@ nav a:hover::after {
     line-height: 1.5;
 }
 
+.project-blocks {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-item {
+    width: 100%;
+    max-width: 320px;
+}
+
+.project-item img {
+    width: 100%;
+    aspect-ratio: 4 / 7;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.project-item figcaption {
+    font-size: 12px;
+    margin:3px;
+    color:#abbdff50;
+}
+
+.see-more-btn {
+    width: fit-content;
+    margin:40px auto 0;
+}
+
+.see-more-btn a {
+    background-color: #18297D;
+    border-radius: 10px;
+    padding: 10px 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.see-more-btn:hover {
+    background-color: #2a41b3;
+}
+
 .contact {
-    background-color: #1c0f57;
-    padding: 60px 60px;
+    background-color: #18297D;
+    padding: 60px;
     color: white;
 }
 
@@ -196,25 +164,46 @@ nav a:hover::after {
 
 .contact-text p {
     font-size: 1.2rem;
-    margin-bottom: 40px;
+    margin-bottom: 2rem;
+}
+
+.contact-cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
 }
 
 .contact-block {
-    background-color: #513ea763;
-    width: auto;
-    border-radius: 10px;
-    margin-bottom: 15px;
+    width: 100%;
+    max-width: 400px;
+    flex: 1;
+    display: flex;
+    padding: 20px;
+    border-radius: 1rem;
+    background-color: #0c1230;
     align-items: center;
+    justify-content: space-between;
+}
+
+.logo-n-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    color: #465ed6;
+}
+
+.logo-n-name img {
+    width: 5rem;
 }
 
 .contact-block a {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 25px;
+    background-color: #4554a0;
+    border-radius: 0.7rem;
+    text-decoration: none;
     color: white;
-}
-
-.contact-block a:hover {
-    color:aqua;
-}
-
-.contact-block img {
-    width: 55px;
+    white-space: nowrap;
+    margin-left: 20px;
 }
