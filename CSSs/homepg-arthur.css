@@ -175,24 +175,35 @@
 
 .contact-block {
     width: 100%;
+    max-width: 400px;
+    flex: 1;
+    display: flex;
     padding: 20px;
     border-radius: 1rem;
     background-color: #0c1230;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.contact-block img {
-    width: 100px;
+.logo-n-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    color: #465ed6;
 }
 
-.contact-block figcaption {
-    color: #18297D;
-    margin-bottom: 30px;
+.logo-n-name img {
+    width: 5rem;
 }
 
 .contact-block a {
-    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 25px;
     background-color: #4554a0;
     border-radius: 0.7rem;
     text-decoration: none;
     color: white;
+    white-space: nowrap;
+    margin-left: 20px;
 }
