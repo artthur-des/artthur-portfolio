@@ -90,7 +90,7 @@
 }
 
 .projects {
-    padding: 60px 60px;
+    padding: 60px;
     color: white;
     background-color: #0c1230;
 }
@@ -206,4 +206,15 @@
     color: white;
     white-space: nowrap;
     margin-left: 20px;
+}
+
+.about-me {
+    padding: 60px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-me h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
